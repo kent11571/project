@@ -1,0 +1,175 @@
+* {  
+margin: 0;  
+padding: 0;  
+}  
+html {height: 100%;
+}  
+body{ z-index:1;
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+			position:relative;
+			height:100%;
+			min-height:100%;
+}
+#top{
+    padding:0px;
+  color:#00CED1;
+  background-color:  #2F4F4F;
+  text-align:left;
+ width:800px;
+ min-width:800px;
+  top:0;
+  margin-left:-400px;
+  left:50%;
+  height:50px;
+  position:relative;
+}
+
+.td_top{
+width:100px;
+
+font-size:40px;
+}
+td, th {
+  display: table-cell;
+  vertical-align: inherit; 
+}
+.td_top1{
+width:100px;
+font-size:40px;
+display:block;
+}
+
+a.top_top{
+  display: block;
+ padding-left:10px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  height:100%;
+  color: white;
+  text-decoration:none;
+}
+.top_top:hover{
+  color: red;
+}
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-color: #2F4F4F;
+}
+#mid{   
+   width:790px;
+max-width:800px;
+  text-align:center;
+  background-color:white;
+margin-left:5px;
+min-height:500px;
+background-color:#F5FFFA;
+}
+.center{
+width:798px;
+  margin-left:-400px;
+  left:50%;
+max-width:800px;
+  position:relative;
+  border:1px solid black;
+  background-color:#F5FFFA;
+  padding-bottom:20px;
+box-shadow:inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width: 800px) {
+#top {
+left: 0px;
+margin: 0px;
+}
+#mid{
+left: 0px;
+margin: 0px;
+
+}
+}
+
+.td_top1{
+width:100px;
+font-size:40px;
+display:block;
+}
+.td_top_right{
+width:100px;
+
+font-size:40px;
+}
+a.top_a_right{
+  display: block;
+ padding-left:10px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  height:100%;
+  color: #E8EFF7;
+  text-decoration:none;
+}
+.probel{
+width:400px;
+}
+.mid_right_mid{
+width:194px;
+height:50px;
+background-color:#424242;
+border-right:1px solid #2F4F4F;
+border-left:1px solid #2F4F4F;
+font-size:13px;
+color:#F8F8FF;
+line-height:410%;
+text-align:left;
+font-family:verdana;
+padding-left:10px;
+}
+
+.mid_right_mid:hover{
+color:#00CED1;
+}
+.dob_mid{
+width:700px;
+margin-left:50px;
+margin-top:20px;
+border-radius:5px;
+background-color:white;
+height:550px;
+ box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.name{
+width:600px;
+margin-left:50px;
+margin-top:20px;
+height:50px;
+font-family:Monotype Corsiva;
+font-size:40px;
+}
+.comment1{
+width:600px;
+margin-left:50px;
+
+}
+.comment2{
+width:600px;
+margin-left:50px;
+height:300px;
+
+}
+.qwe{
+width:600px;
+margin-left:50px;
+height:50px;
+font-family:Monotype Corsiva;
+font-size:40px;
+
+}

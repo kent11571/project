@@ -1,0 +1,289 @@
+* {  
+margin: 0;  
+padding: 0;  
+}  
+html {height: 100%;
+}  
+body{ z-index:1;
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+			position:relative;
+			height:100%;
+			min-height:100%;
+}
+#top{
+    padding:0px;
+  color:#00CED1;
+  background-color:  #2F4F4F;
+  text-align:left;
+ width:800px;
+ min-width:800px;
+  top:0;
+  margin-left:-400px;
+  left:50%;
+  height:50px;
+  position:relative;
+}
+
+.td_top{
+width:100px;
+
+font-size:40px;
+}
+td, th {
+  display: table-cell;
+  vertical-align: inherit; 
+}
+.td_top1{
+width:100px;
+font-size:40px;
+display:block;
+}
+
+a.top_top{
+  display: block;
+ padding-left:10px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  height:100%;
+  color: white;
+  text-decoration:none;
+}
+.top_top:hover{
+  color: red;
+}
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-color: #2F4F4F;
+}
+#mid{   
+   width:798px;
+  margin-left:-400px;
+  left:50%;
+max-width:800px;
+  text-align:center;
+  
+  position:absolute;
+min-height:100%;
+border:1px solid black;
+}
+
+
+@media screen and (max-width: 800px) {
+#top {
+left: 0px;
+margin: 0px;
+}
+#mid{
+left: 0px;
+margin: 0px;
+}
+}
+.post{
+height:240px;
+margin-top:15px;
+margin-left:14px;
+width:770px;
+background-color:white;
+font-family:Monotype Corsiva;
+box-shadow: 0 0 5px rgba(0,0,0,0.7);
+border-radius:25px 0 10px 0;
+border-radius: 3px;
+}
+.post:hover{
+background-color:#F0FFF0;
+cursor: pointer;
+
+}
+
+.post1{
+height:100%;
+width:700px;
+margin-top:50px;
+margin-left:49px;
+font-family:Monotype Corsiva;
+
+}
+.right1{
+height:220px;
+width:500px;
+margin-top:4px;
+margin-left:4px;
+float:right;
+
+}
+.left1{
+height:220px;
+width:500px;
+margin-top:4px;
+margin-left:4px;
+float:left;
+
+}
+.right{
+height:190px;
+width:190px;
+
+margin-top:30px;
+margin-right:40px;
+float:right;
+
+
+}
+.left{
+height:190px;
+width:190px;
+
+margin-top:30px;
+margin-left:30px;
+float:left;
+
+
+}
+.name_post{
+height:40px;
+width:470px;
+font-weight: 500;
+font-family:Monotype Corsiva;
+margin-top:4px;
+margin-left:4px;
+float:left;
+font-size:40px;
+line-height:130%;
+padding-left:10px;
+text-align:left;
+color:#2F4F4F;
+
+}
+.post_1{
+height:120px;
+width:460px;
+color:#2F4F4F;
+margin-top:4px;
+margin-left:4px;
+float:left;
+font-size:16px;
+font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+padding:10px;
+text-align:left;
+
+
+}
+
+
+.post_photo{
+height:190px;
+width:190px;
+
+margin-top:4px;
+margin-left:4px;
+float:left;
+}
+.mid_post{
+   width:798px;
+  margin-left:-400px;
+  left:50%;
+max-width:800px;
+  text-align:center;
+
+  position:absolute;
+min-height:100%;
+border:1px solid #2F4F4F;
+box-shadow:inset 0 1px 5px rgba(0,0,0,0.8);
+background-color:#F5FFFA;
+}
+.kol_vo{
+width:370px;
+height:40px;
+margin-top:180px;
+
+
+}
+.kol_vo1{
+width:250px;
+height:30px;
+margin-top:5px;
+float:left;
+font-size:20px;
+}
+.kol_vo2{
+width:100px;
+font-size:20px;
+height:30px;
+margin-top:5px;
+margin-left:5px;
+
+float:left;
+text-align:left;
+}
+.td_top1{
+width:100px;
+font-size:40px;
+display:block;
+}
+.td_top_right{
+width:100px;
+
+font-size:40px;
+}
+a.top_a_right{
+  display: block;
+ padding-left:10px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  height:100%;
+  color: #E8EFF7;
+  text-decoration:none;
+}
+.probel{
+width:400px;
+}
+.mid_right_mid{
+width:194px;
+height:50px;
+background-color:#424242;
+border-right:1px solid #2F4F4F;
+border-left:1px solid #2F4F4F;
+font-size:13px;
+color:#F8F8FF;
+line-height:410%;
+text-align:left;
+font-family:verdana;
+padding-left:10px;
+}
+
+.mid_right_mid:hover{
+color:#00CED1;
+}
+.dpost{
+width:100px;
+height:50px;
+margin-left:250px;
+font-family:verdana;
+font-size:18px;
+color:#F8F8FF;
+padding-left:10px;
+padding-right:10px;
+line-height:270%;
+background-color:#424242;
+color:#F8F8FF;
+
+}
+.dpost:active{
+line-height:310%;
+
+}
+a.top_top1{
+  font-weight: bold;
+  text-decoration:none;
+  color:#F8F8FF;
+}

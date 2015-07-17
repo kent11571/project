@@ -1,0 +1,204 @@
+<!DOCTYP html>
+<HTML>
+<HEAD>
+  <link rel="stylesheet" type="text/css" href="vhod.css">
+  <meta charset="UTF-8" name="viewport" >
+<TITLE>Авторизация</TITLE>
+<script language="javascript">
+		function showHide() {
+		    var div = document.getElementById('reg2');
+			var div1 = document.getElementById('reg1');
+			
+		    if (div.style.display !== 'none') {
+		        div.style.display = 'none';	
+                div1.style.display = 'block';				
+		        	
+		    }
+		    else {
+		        div.style.display = 'block';					
+		    }
+			
+		
+			
+			
+		};
+	
+		function showHide1() {
+		    var div = document.getElementById('reg2');
+			var div1 = document.getElementById('reg1');
+			
+		    
+			  if (div1.style.display !== 'none') {
+		        div1.style.display = 'none';	
+                div.style.display = 'block';				
+		        	
+		    }
+		    else {
+		        div1.style.display = 'block';					
+		    }
+			
+			
+		};
+	
+
+	
+	
+	
+	
+	</script>
+</HEAD>
+<body bgcolor="white">
+
+<div class=regi>iBlog</div>
+<div class=reg id='reg2'><div class=reg_vhod >Авторизация</div>
+ <div class='inp_vhod'>
+ <form id='myform1' method="post" action='login.php'>
+  <table class='tbl_vh'>
+   <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='text' name='tel1'  id='user_tel1' class='qwe' placeholder='Введите номер телефона' autofocus required pattern="^\d{11}" title="Заполните поле в формате: 79991234567">
+    </td>
+   
+  </tr>
+  </div>
+  <div class='input'>
+  <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='password' name='password1'  id='user_pass' class='qwe' placeholder='Введите пароль' autofocus required>
+    </td>
+	
+	</tr>
+	</div>
+	<div class='re'>
+    <tr>
+    <td class='cl1'><div class='registration' id='reg' onclick='showHide()' >Регистрация</div></td>
+<td class='td'></td>
+   <td class='cl1'><input type='submit' name='but1'  id='bt_vh1' class='qwe' value=Вход>
+   </td>
+  </tr>
+  </div>
+ </table>
+</div>
+</div>
+</form>
+
+<form id='myform' method="post" action='register.php'>
+<div class=reg_reg id='reg1'><div class=reg_vhod>Регистрация</div>
+ <div class='inp_vhod'>
+
+  <table class='tbl_vh'>
+   <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='text' name='2name'  id='user_2name' class='qwe' placeholder='Фамилия' autofocus required pattern="[a-zA-Zа-яА-Я]+" title="Допускаются только символы русского и англиского алфавита">
+    </td>
+   
+  </tr>
+  </div>
+  
+  
+  <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='text' name='1name'  id='user_1name' class='qwe' placeholder='Имя' autofocus required pattern="[a-zA-Zа-яА-Я]+" title="Допускаются только символы русского и англиского алфавита">
+    </td>
+   
+  </tr>
+  </div>
+  
+  <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='text' name='3name'  id='user_3name' class='qwe' placeholder='Отчество' autofocus required pattern="[a-zA-Zа-яА-Я]+" title="Допускаются только символы русского и англиского алфавита">
+    </td>
+   
+  </tr>
+  </div>
+  
+  <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='email' name='email'  id='user_email' class='qwe' placeholder='E-mail' autofocus required pattern="\S+@[a-z]+.[a-z]+">
+    </td>
+   
+  </tr>
+  </div>
+  
+  <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+	
+	<select size='1' name='sex1' class='qwer' >
+    <option >Укажите пол</option>
+    <option value="М">М</option>
+    <option value="Ж">Ж</option>
+	
+   </select>
+	
+    </td>
+   
+  </tr>
+  </div>
+  
+  
+  
+   <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='date' name='old'  id='user_old' class='qwe' placeholder='Укажите ваш возраст' autofocus required>
+    </td>
+   
+  </tr>
+  </div>
+  
+  <div class='input'>
+   <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='text' name='tel'  id='user_tel' class='qwe' placeholder='Номер телефона' autofocus required pattern="^\d{11}" title="Заполните поле в формате: 79991234567">
+    </td>
+   
+  </tr>
+  </div>
+  
+  
+  <div class='input'>
+  <tr>
+   
+    <td class='td_reg1' colspan="3">
+     <input type='password' name='password'  id='user_pass' class='qwe' placeholder='пароль' autofocus required>
+    </td>
+	
+	</tr>
+	</div>
+	<div class='re'>
+    <tr>
+    
+
+   <td class='cl1'><div class='btn_vhod' id='back' onclick='showHide1()'>Назад</div>
+   </td>
+   
+   <td class='td'></td>
+   <td class='cl1'><input type='submit' name='but'  id='bt_vh' class='qwe' value=регистрация ></td>
+  </tr>
+  </div>
+ </table>
+</div>
+</div>
+
+
+</form>
+
+
+     
+  </body>
+</HTML>
