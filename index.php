@@ -32,7 +32,7 @@ $userdata1 = mysql_fetch_array($query1);
 
 
 echo "
-<td class=probel>Добавленная запись<div class='dpost'><a class='top_top1' href='dobav.php'>Добавить</a></div></td>
+<td class=probel>Добавленная запись11<div class='dpost'><a class='top_top1' href='dobav.php'>Добавить</a></div></td>
 	   <td class=td_top_right><a class=top_a_right>
 <div class='mid_right_mid'>".$userdata1['u1name']." ".$userdata1['u2name']."</div>";
 //echo "<td id=\"choosecabinet\">".$userdata1['ulogin']."</td>";
